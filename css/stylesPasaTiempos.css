@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: linear-gradient(#190e21,#480b0b);
+    overflow: auto;
+}
+#container{
+	width: 74%;
+	border-style: solid;
+	margin: 0px auto;
+    overflow: auto;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+}
+header{
+	height: 100%;
+	width: 100%;
+	line-height: 100px;
+	text-align: center;
+	margin: 0px;
+	color: white;
+}
+
+nav {
+    background: rgba(116, 14, 14, 0.35);
+	margin: 10px;
+	line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	padding-left: 30px;    
+	border: 1px solid black;
+}
+a{
+    background: none;
+	color: white;
+    text-decoration: none;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+a:hover{
+    background: #190e21;
+    color: white;
+}
+img{
+	transition: all 0.5s ease;
+    text-align: center;
+    box-shadow: 7px 13px 37px #000;
+}
+img:hover{
+	transform: scale(0.9);
+	
+}
+.clearfix{
+	clear: both;
+}
+.coleccion{
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 30px;
+    overflow: auto;
+}
+.fotos-pasatiempo{
+    width: 450px;
+    height: 280px; 
+    max-height: 50%;
+    display: block;
+}
+.fotos{
+    background-color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+.textoPagina{
+    padding-top: 30px ;
+    padding-bottom: 30px
+}
+footer{
+	line-height: 50px;
+	background-image: linear-gradient(#190e21,white);
+    text-align: center;
+	color: black;
+}
+ 

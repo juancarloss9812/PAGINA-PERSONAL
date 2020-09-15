@@ -1,0 +1,75 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: linear-gradient(#190e21,#480b0b);
+    overflow: auto;
+}
+#container{
+	width: 74%;
+	border-style: solid;
+	margin: 0px auto;
+    overflow: auto;
+    font-family: 'Heebo', sans-serif;   
+    font-weight: bolder;
+}
+header{
+	height: 100%;
+	width: 100%;
+	line-height: 100px;
+	text-align: center;
+	margin: 0px;
+	color: white;
+}
+nav {
+    background: rgba(116, 14, 14, 0.35);
+	margin: 10px;
+	line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	padding-left: 30px;    
+	border: 1px solid black;
+}
+a{
+    background: none;
+	color: white;
+    text-decoration: none;
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+}
+a:hover{
+    background: #190e21;
+    color: white;
+}
+section{
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: 15px;
+    float: center;
+}
+.lista{
+    background: white;
+    padding-left: 40px;
+}
+.listaNegocio{   
+    background: white;
+    padding-left: 40px;
+}
+#listaUl{
+    padding-left: 40px;
+}
+.clearfix{
+	clear: both;
+}
+#espacio{
+    padding-top: 20px;
+}
+footer{
+	line-height: 50px;
+	background-image: linear-gradient(#190e21,white);
+    text-align: center;
+	color: black;
+}
